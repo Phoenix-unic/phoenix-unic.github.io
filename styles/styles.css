@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=PTSerif&display=swap);
+
+body {
+    font-family: PTSerif, serif;
+	font-size: large;
+    background: linear-gradient(270deg, #03282abb 30%, #dac6d9bd 100%);
+}
+
+div {
+	border-radius: 5px;
+}
+a {
+	color: azure;
+	text-decoration: none;
+	
+}
+
+a:hover {
+	background-color: rgba(0, 139, 139, 0.089);
+	color: rgb(226, 208, 185);
+}
+
+/* navbar */
+.navbar img{
+	max-height: 3rem;
+	border-radius: 50%;
+}
+
+.navbar a {
+	color: black;
+}
+
+
+.mid-container img {
+	width: 75%;
+
+}
+
+/* middle container */
+.mid-container {
+	width: 80%;
+	font-size: 1.2rem;
+	text-align: center;
+	color: azure;
+	background-color: rgba(9, 44, 44, 0.219);
+	margin-bottom: 3rem;
+}
+
+.mid-container p {
+	text-align: start;
+}
+
+@media (max-width: 1100px) {
+	.mid-container {
+		width: 100%;
+	}
+}
+
+
+/* right bar  */
+.right-bar {
+	background-color: rgba(9, 44, 44, 0.219);
+	color: azure;
+	padding-top: 1em;
+	padding-left: 1em;
+}
+
+.right-bar img {
+	max-width: 90%;
+}
+
+.right-bar a {
+	font-size: 0.9em;
+}
+
+
+/* footer */
+footer {
+	background-color: rgba(10, 27, 27, 0.623);
+	color: azure;
+}
+
+footer  p{
+	margin-bottom: 0;
+}
+
+footer img {
+	max-width: 30px;
+	border-radius: 5px;
+}
+
+#follow {
+	font-size: 0.95rem;
+	font-style: italic;
+}
+
+
+/* span */
+.underline {
+	text-decoration: underline;
+	color: rgb(228, 176, 233);
+}
+
+
+/* cards */
+.card {
+    background-color: rgba(0, 0, 0, 0.089);
+}
+
+.description ul {
+    text-align: left;
+}
+
+
+.btn {
+    background-color: rgba(92, 16, 16, 0.199);
+    border: 0;
+    color: azure
+}
+
+.btn:hover {
+    background-color: rgba(212, 195, 195, 0.199);
+    border: 0;
+    color: azure;
+}
+
+
+
